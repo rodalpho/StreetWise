@@ -13,6 +13,7 @@ Repository sources:
 Guidelines:
 1. Keep MCP installs scoped to this project.
 2. Do not rely on global/user-wide MCP installs for StreetWise.
-3. Follow each MCP repository README for environment variables and launch details.
-4. Before MCP registration, ask the user for required keys/secrets.
-5. Do not run MCP add/register commands with placeholder secrets.
+3. Review MCP files before install (README, install scripts, entrypoints, dependency manifests) to confirm safety.
+4. Follow each MCP repository README for environment variables and launch details.
+5. Before MCP registration, ask the user for required keys/secrets.
+6. Do not run MCP add/register commands with placeholder secrets.
