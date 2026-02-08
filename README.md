@@ -15,7 +15,7 @@ Tell your agent:
    - SEC EDGAR: ask for contact name + email to set SEC_EDGAR_USER_AGENT as "Name (email@domain.com)".
    - Financial Datasets: ask for API key first. If user does not have one, direct them to:
      - Sign up: https://financialdatasets.ai/register
-     - API key dashboard: https://financialdatasets.ai/account
+     - API key dashboard (after sign-in): https://financialdatasets.ai/
 6) Configure Financial Datasets as a remote MCP server endpoint:
    - https://mcp.financialdatasets.ai/mcp
 7) Install/register these MCP servers with this harness's native MCP flow, scoped to this project only (not global/user-wide):
