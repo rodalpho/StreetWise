@@ -6,7 +6,7 @@ StreetWise is a lightweight install pack for financial-analysis agents.
 Tell your agent:
 
 ```text
-1) git clone https://github.com/rodalpho/StreetWise .
+1) Clone https://github.com/rodalpho/StreetWise into . and follow README.md.
 2) AGENTS.md and skills/ are now in the project root.
 3) Keep MCP server files under this project in ./mcp/:
    - ./mcp/financial-datasets-mcp
