@@ -6,6 +6,10 @@ Expected layout:
 1. `mcp/financial-datasets-mcp`
 2. `mcp/sec-edgar-mcp`
 
+Download commands:
+1. `git clone https://github.com/financial-datasets/mcp-server ./mcp/financial-datasets-mcp`
+2. `git clone https://github.com/stefanoamorelli/sec-edgar-mcp ./mcp/sec-edgar-mcp`
+
 Repository sources:
 1. Finance MCP: https://github.com/financial-datasets/mcp-server
 2. Filings MCP: https://github.com/stefanoamorelli/sec-edgar-mcp
