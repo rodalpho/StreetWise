@@ -15,8 +15,9 @@ Repository sources:
 Guidelines:
 1. Keep MCP installs scoped to this project.
 2. Do not rely on global/user-wide MCP installs for StreetWise.
-3. For remote MCP endpoints, review official docs and auth requirements before registration.
-4. For local MCP repos, review files before install (README, install scripts, entrypoints, dependency manifests) to confirm safety.
-5. Follow each MCP README/docs for environment variables and launch details.
-6. Before MCP registration, ask the user for required keys/secrets.
-7. Do not run MCP add/register commands with placeholder secrets.
+3. Financial Datasets uses remote HTTP MCP with OAuth sign-in for StreetWise.
+4. For remote MCP endpoints, review official docs and auth requirements before registration.
+5. For local MCP repos, review files before install (README, install scripts, entrypoints, dependency manifests) to confirm safety.
+6. Follow each MCP README/docs for environment variables and launch details.
+7. Before MCP registration, ask the user for required keys/secrets.
+8. Do not run MCP add/register commands with placeholder secrets.
