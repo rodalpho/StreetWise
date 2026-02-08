@@ -28,4 +28,4 @@ Tell your agent:
   <img src="./nvda_example.png" alt="NVDA analysis example output" width="360" />
 </a>
 
-Credit to Dexter for the inspiration behind this simple hack. https://github.com/virattt/dexter
+Credit to [Dexter](https://github.com/virattt/dexter) for the inspiration behind this simple hack. 
