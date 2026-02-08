@@ -23,4 +23,9 @@ Tell your agent:
    "Compare AAPL and MSFT revenue growth over last 3 fiscal years with sources."
 ```
 
+## Example
+<a href="./nvda_example.png">
+  <img src="./nvda_example.png" alt="NVDA analysis example output" width="360" />
+</a>
+
 Credit to Dexter for the inspiration behind this simple hack. https://github.com/virattt/dexter
