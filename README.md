@@ -22,3 +22,5 @@ Tell your agent:
 8) Verify MCP tools are available, then run:
    "Compare AAPL and MSFT revenue growth over last 3 fiscal years with sources."
 ```
+
+Credit to Dexter for the inspiration behind this simple hack. https://github.com/virattt/dexter
