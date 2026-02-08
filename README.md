@@ -13,7 +13,7 @@ Tell your agent:
 4) Read each MCP README/docs and identify required API keys/env vars.
 5) Ask the user for required secrets before running MCP install/register commands:
    - SEC EDGAR: ask for contact name + email to set SEC_EDGAR_USER_AGENT as "Name (email@domain.com)".
-   - Financial Datasets (remote HTTP): use OAuth sign-in flow at connect time (no API key setup in StreetWise flow).
+   - Financial Datasets (remote HTTP): use OAuth sign-in flow at connect time.
 6) Configure Financial Datasets as a remote MCP server endpoint:
    - https://mcp.financialdatasets.ai/mcp
 7) Install/register these MCP servers with this harness's native MCP flow, scoped to this project only (not global/user-wide):
