@@ -3,21 +3,20 @@
 Use this directory for project-local MCP server files.
 
 Expected layout:
-1. `mcp/financial-datasets-mcp`
-2. `mcp/sec-edgar-mcp`
+1. `mcp/sec-edgar-mcp`
 
 Download commands:
-1. `git clone https://github.com/financial-datasets/mcp-server ./mcp/financial-datasets-mcp`
-2. `git clone https://github.com/stefanoamorelli/sec-edgar-mcp ./mcp/sec-edgar-mcp`
+1. `git clone https://github.com/stefanoamorelli/sec-edgar-mcp ./mcp/sec-edgar-mcp`
 
 Repository sources:
-1. Finance MCP: https://github.com/financial-datasets/mcp-server
-2. Filings MCP: https://github.com/stefanoamorelli/sec-edgar-mcp
+1. Finance MCP (remote streamable HTTP): https://mcp.financialdatasets.ai/mcp
+2. Filings MCP (local clone): https://github.com/stefanoamorelli/sec-edgar-mcp
 
 Guidelines:
 1. Keep MCP installs scoped to this project.
 2. Do not rely on global/user-wide MCP installs for StreetWise.
-3. Review MCP files before install (README, install scripts, entrypoints, dependency manifests) to confirm safety.
-4. Follow each MCP repository README for environment variables and launch details.
-5. Before MCP registration, ask the user for required keys/secrets.
-6. Do not run MCP add/register commands with placeholder secrets.
+3. For remote MCP endpoints, review official docs and auth requirements before registration.
+4. For local MCP repos, review files before install (README, install scripts, entrypoints, dependency manifests) to confirm safety.
+5. Follow each MCP README/docs for environment variables and launch details.
+6. Before MCP registration, ask the user for required keys/secrets.
+7. Do not run MCP add/register commands with placeholder secrets.
